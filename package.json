@@ -1,0 +1,25 @@
+{
+  "name": "channelnoel-oauth",
+  "version": "1.0.0",
+  "description": "OAuth integration for ChannelNoel",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./express": "./src/express.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "channelnoel",
+    "oauth",
+    "pkce",
+    "express"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "express-session": "^1.19.0"
+  }
+}
